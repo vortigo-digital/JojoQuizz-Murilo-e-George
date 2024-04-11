@@ -1,0 +1,26 @@
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 40%;
+    height: 80vh;
+    box-sizing: border-box;
+    background:
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5));
+    gap: 2rem;
+    border-radius: 15px;
+    color: rgb(7, 7, 7);
+    padding: 2rem;
+}
+
+h1 {
+    padding: 1rem;
+    width: 105%;
+    border-radius: 15px;
+    font-size: 3.125rem;
+    background:
+    linear-gradient(rgba(200, 6, 164, 0.9), rgba(212, 8, 202, 0.5));
+    color: rgb(49, 10, 207);
+    text-shadow: 5px, 5px, 5px, 5px;
+}

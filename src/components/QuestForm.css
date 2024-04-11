@@ -1,0 +1,63 @@
+/* Estilo para o formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem; /* Espaçamento entre os elementos do formulário */
+    color: rgb(74, 40, 210); /* Cor do texto */
+    letter-spacing: 2px; /* Espaçamento entre letras */
+    font-size: 1.5rem; /* Tamanho da fonte */
+}
+
+/* Estilo para o texto da pergunta */
+.question-text {
+    padding: 1rem;
+    background:
+    linear-gradient(rgba(0, 0, 0, 0.644), rgba(0, 0, 0, 0.856));
+    color: #0056b3;
+    font-size: 25px; /* Tamanho da fonte da pergunta */
+    font-weight: bold; /* Negrito */
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+/* Estilo para a seção de respostas */
+.answer-section {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilo para os botões de resposta */
+.answer-section button {
+    padding: 10px 20px; /* Espaçamento interno */
+    margin-bottom: 10px; /* Espaçamento inferior */
+    border: none; /* Sem borda */
+    border-radius: 4px; /* Borda arredondada */
+    cursor: pointer; /* Cursor de apontar */
+    background-color: #007bff; /* Cor de fundo do botão */
+    font-family: 'JojoFontShadow';
+    color: rgb(3, 3, 3); /* Cor do texto do botão */
+    font-size: 20px; /* Tamanho da fonte */
+    transition: background-color 0.3s; /* Transição suave da cor de fundo */
+}
+
+/* Efeito hover nos botões de resposta */
+.answer-section button:hover {
+    background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
+}
+
+/* Estilo para o botão de reiniciar */
+.answer-section button.restart-button {
+    background-color: #dc3545; /* Cor de fundo do botão de reiniciar */
+}
+
+/* Efeito hover no botão de reiniciar */
+.answer-section button.restart-button:hover {
+    background-color: #bd2130; /* Cor de fundo do botão de reiniciar ao passar o mouse */
+}
+
+.reload {
+    font-family: 'JojoFontShadow';
+    font-size: 20px;
+    margin-top: 2rem;
+    padding: 10px;
+    background-color: #007bff;
+}

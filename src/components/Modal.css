@@ -1,0 +1,70 @@
+/* Transição do modal */
+.modal-enter {
+    opacity: 0;
+}
+
+.modal-enter-active {
+    opacity: 1;
+    transition: opacity 1s ease-in-out; 
+}
+
+.modal-exit {
+    opacity: 1;
+}
+
+.modal-exit-active {
+    opacity: 0;
+    transition: opacity 1s ease-in-out; 
+}
+
+/* Modal container */
+.modal-container {
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Modal card */
+.modal-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra */
+    text-align: center;
+}
+
+/* Modal card image */
+.modal-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Modal card paragraph */
+.modal-card p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Modal card button */
+.modal-card button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Cor do botão */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Efeito hover no botão */
+.modal-card button:hover {
+    background-color: #0056b3; /* Cor do botão ao passar o mouse */
+}
